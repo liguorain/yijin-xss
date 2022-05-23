@@ -1,0 +1,55 @@
+{
+  "waifu": {
+    "copy_message": ["有时候手打比复制更快哦~"],
+    "screenshot_message": ["照好了嘛，是不是很可爱呢？"],
+    "hidden_message": ["想我的话刷新一下我就会回来哦~"],
+    "load_rand_textures": ["我还没有其他衣服呢", "我的新衣服好看嘛"],
+    "hour_tips": {
+      "t5-7": ["这么早就开始学习了吗😒"],
+      "t7-11": ["又是迈向黑客之路的一天"],
+      "t11-14": ["中午了，工作了一个上午，现在是午餐时间！"],
+      "t14-17": ["午后很容易犯困呢，今天的运动目标完成了吗？"],
+      "t17-19": ["傍晚了！窗外夕阳的景色很美丽呢，最美不过夕阳红~"],
+      "t19-21": ["晚上好，今天过得怎么样？"],
+      "t21-23": ["已经这么晚了呀，早点休息吧，晚安~"],
+      "t23-5": ["你是夜猫子呀？这么晚还不睡觉，明天起的来嘛"],
+      "default": ["嗨~ 快来逗我玩吧！"]
+    },
+    "referrer_message": {
+    },
+    "referrer_hostname": {
+    },
+    "model_message": {
+      "1": ["来自 Potion Maker 的 Pio 酱 ~"],
+      "2": ["来自 Potion Maker 的 Tia 酱 ~"]
+    }
+  },
+  "mouseover": [
+    { "selector": "a[href^='http']", "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 么？"] },
+    { "selector": ".fui-home", "text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦"] },
+    { "selector": ".fui-chat", "text": ["想听我给讲几句 鸡汤 吗？"] },
+    { "selector": ".fui-eye", "text": ["嗯··· 要切换 看板娘 吗？"] },
+    { "selector": ".fui-user", "text": ["想看我穿其它衣服吗？"] },
+    { "selector": ".fui-photo", "text": ["要给我拍张照片纪念吗？"] },
+    { "selector": ".fui-info-circle", "text": ["这里有关于我的信息呢"] },
+    { "selector": ".fui-cross", "text": ["你不喜欢我了吗..."] },
+    { "selector": ".usernameAndPassword", "text": ["账号密码看仔细别输错哦~"] },
+    { "selector": ".el-input__inner", "text": ["信息看仔细别输错哦~"] },
+    { "selector": ".check", "text": ["再检查下呗~"] },
+    { "selector": ".badSpeak", "text": ["不可以说脏话哦~"] }
+  ],
+  "click": [
+    {
+      "selector": ".waifu #live2d",
+      "text": [
+        "<img src onerror=alert(1)>",
+        "是不是觉得我很有趣呀~ <span style=\"color:#0099cc;\">◍'ㅅ'◍</span>",
+        "好玩吧 嘿嘿~<span style=\"color:#0099cc;\">(◍•ᴗ•◍)ゝ</span>",
+        "干正事的时候要集中注意力哦  <span style=\"color:#0099cc;\">(◔‸◔）</span>",
+        "快干正事啦！ <span style=\"color:#0099cc;\">=_=</span>",
+        "别再点我啦！有那么好玩吗...  <span style=\"color:#0099cc;\">∑(๑ºдº๑)!!</span>"
+      ]
+    }
+  ],
+  "seasons": []
+}
