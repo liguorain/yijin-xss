@@ -38,7 +38,7 @@
 
 # 霉霉镇楼，不要偷看答案哦！
 
-![](https://gimg2.baidu.com/image_search/src=http%3A%2F%2F201901.oss-cn-hangzhou.aliyuncs.com%2Fzh%2F521637-137ebc4db5f499ede71bcd0675f69be8.jpg&refer=http%3A%2F%2F201901.oss-cn-hangzhou.aliyuncs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1670418118&t=d78c16d053e0a1a1a6f551301c3f47d9)
+![](http://n.sinaimg.cn/ent/transform/20170506/zJy9-fyeyqek9981336.jpg)
 
 
 
