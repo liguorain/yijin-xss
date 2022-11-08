@@ -26,7 +26,7 @@
 
 5. 靶场使用
 
-   在输入框中输入的内容经过 `parse` 函数处理之后渲染到一个 iframe 页面，这个页面里的 `alert` 函数已经被重写，调用 `alert` 之后就可以通关，通关后上方的关卡标题右边会出现”下一关“的按钮。
+   在输入框中输入的内容经过 `parser` 函数处理之后渲染到一个 iframe 页面，这个 iframe 页面里的 `alert` 函数会被重写，调用 `alert` 之后就可以通关，通关后上方的关卡标题右边会出现”下一关“的按钮。
 
    
 
@@ -76,9 +76,9 @@
 
 4. 第四关
 
-   使用了神挡杀神佛挡杀佛的全大写，HTML 平安无恙，但是 JS 就无法执行了。但是 JS 的某些 Bug 是可以当作 Feature 来尝试的。
+   使用了神挡杀神佛挡杀佛的全大写，HTML 平安无恙，不过其中的 JS 就无法执行了——但是 JS 的某些 Bug 是可以当作 Feature 来尝试的。
 
-   没有头绪吗？搜索 aaencode 试试。
+   没有头绪吗？搜索 [aaencode](https://www.baidu.com/baidu?tn=monline_4_dg&ie=utf-8&wd=aaencode+) 试试。
 
 5. 第五关
 
@@ -206,7 +206,7 @@
    >
    > 1. 通过查看代码，我们发现对方把单双引号跟小于符号都过滤掉了
    >
-   >    ![image-20220505222836959](C:\Users\ligr\AppData\Roaming\Typora\typora-user-images\image-20220505222836959.png)
+   >    ![image-20220505222836959](https://pic-base.oss-cn-hangzhou.aliyuncs.com/img/image-20220505222836959.png)
    >
    >    所以常规的闭合思路不可取。
    >
@@ -216,7 +216,7 @@
    >    [1](2)
    >    ```
    >
-   >    ![image-20220505223014862](C:\Users\ligr\AppData\Roaming\Typora\typora-user-images\image-20220505223014862.png)
+   >    ![image-20220505223014862](https://pic-base.oss-cn-hangzhou.aliyuncs.com/img/image-20220505223014862.png)
    >
    > 3. 因此猜想把链接语法跟图片语法结合使用会有惊喜
    >
@@ -224,7 +224,7 @@
    >    ![[1](2)]()
    >    ```
    >
-   >    ![image-20220505223418266](C:\Users\ligr\AppData\Roaming\Typora\typora-user-images\image-20220505223418266.png)
+   >    ![image-20220505223418266](https://pic-base.oss-cn-hangzhou.aliyuncs.com/img/image-20220505223418266.png)
    >
    > 4. 尝试使用常规 payload，但是只有第一个括号，第二个被无意间干掉了，这是因为编辑器的语法解析的时候也需要圆括号，这个圆括号造成了干扰。
    >
@@ -232,7 +232,7 @@
    >    ![[1](onerror=alert(1) )]()
    >    ```
    >
-   >    ![image-20220505223835738](C:\Users\ligr\AppData\Roaming\Typora\typora-user-images\image-20220505223835738.png)
+   >    ![image-20220505223835738](https://pic-base.oss-cn-hangzhou.aliyuncs.com/img/image-20220505223835738.png)
    >
    >    所以我们需要一种不引入圆括号的方法。
    >
@@ -244,7 +244,7 @@
    >
    > 
    >
-   >    ![image-20220505224141164](C:\Users\ligr\AppData\Roaming\Typora\typora-user-images\image-20220505224141164.png)
+   >    ![image-20220505224141164](https://pic-base.oss-cn-hangzhou.aliyuncs.com/img/image-20220505224141164.png)
    >
    > 
 
